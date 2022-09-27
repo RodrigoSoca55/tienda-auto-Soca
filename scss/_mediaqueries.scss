@@ -1,0 +1,99 @@
+/* media queries */
+
+
+
+    /* // Extra large devices (large desktops, 1200px and up) */
+    @media (min-width: 1200px) { 
+        #R-1 , #R-2 ,#R-3{
+        animation: backInLeft;
+        animation-duration: 2s; 
+       }
+     
+   #R-1 #card:hover, #R-2 #card:hover , #R-3 #card:hover{
+  
+       transform:scale(1.1) ;
+      
+       box-shadow: rgba(185, 184, 184, 0.432) 0px 1px 1px 0px inset, rgba(86, 86, 177, 0.466) 0px 80px 100px -6px, rgba(225, 0, 255, 0.596) 0px 0px 70px 10px;
+    
+   }
+ 
+
+    }
+
+
+
+
+   /* // Large devices (desktops, 992px and up) */
+   @media (min-width: 992px) {  
+     
+      
+       #R-1 #card:hover, #R-2 #card:hover , #R-3 #card:hover{
+  
+           transform:scale(1.1) ;
+          
+           box-shadow: rgba(185, 184, 184, 0.432) 0px 1px 1px 0px inset, rgba(86, 86, 177, 0.466) 0px 80px 100px -6px, rgba(225, 0, 255, 0.596) 0px 0px 70px 10px;
+        
+       }
+
+
+
+   }
+
+
+
+
+   /* // Medium devices (tablets, 768px and up) */
+   @media (min-width: 768px) { 
+
+
+       #R-1 #card:hover, #R-2 #card:hover , #R-3 #card:hover{
+  
+           transform:scale(1.05) ;
+          
+           box-shadow: rgba(185, 184, 184, 0.432) 0px 1px 1px 0px inset, rgba(86, 86, 177, 0.466) 0px 80px 100px -6px, rgba(225, 0, 255, 0.596) 0px 0px 70px 10px;
+        
+       }
+    }
+
+
+
+   /* // Small devices (landscape phones, 576px and up) */
+   @media (min-width: 576px) { }
+
+
+
+
+
+
+   /* Break points */
+   @media(max-height:505px) {
+       footer{
+       height: 15vh;
+           display:flex;
+                
+                 align-items: center;
+       }
+       #continercontacto{
+        height: 100% !important;
+      
+       }
+    
+   }
+   @media(max-height:335px) {
+       footer{
+       height: 25vh;
+           display:flex;
+                
+                 align-items: center;
+       }
+   }
+
+   /* break462w */
+
+   @media (max-width:462px) {
+       #card{
+           height: 15em !important;
+           width:15em !important;
+           
+       }
+   }

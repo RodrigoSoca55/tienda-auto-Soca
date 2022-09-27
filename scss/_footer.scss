@@ -1,0 +1,11 @@
+footer{
+    height: 100%;
+    width: 100vw;
+    background: $gradiente-violeta;
+    div{
+        #btn-footer{
+            animation:pulse infinite;
+            animation-duration: 2s;
+        }
+    }
+}

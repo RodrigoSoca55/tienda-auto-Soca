@@ -1,0 +1,64 @@
+main{
+    height: 100%;
+    width: 100vw;
+
+    #carouselExampleIndicators{
+
+      .carousel-indicators{
+                  button{}
+
+      }
+
+      .carousel-inner{
+        .carousel-item{
+            
+            img{ object-fit:cover}
+
+        }
+      }
+     .carousel-control-prev{
+        .carousel-control-prev-icon{}
+     
+    }
+
+     .carousel-control-next{
+        .carousel-control-next-icon{}
+
+     }
+    }
+ 
+
+    #flechabajar{
+        animation:shakeY infinite;
+        animation-duration: 10s;
+        a{
+            i{
+                
+            }
+
+            
+        }
+    }
+
+
+    div{
+        #tituloinicio{
+            animation: zoomIn ;
+            animation-duration: 4s;
+            &:hover{
+                #textinicio{
+                    display: block !important;
+                }
+            }
+        }
+    }
+    div{ 
+        div{ 
+            div{
+                #card{
+
+                     }
+                }
+            }
+        }
+}
