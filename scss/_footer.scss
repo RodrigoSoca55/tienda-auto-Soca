@@ -1,9 +1,10 @@
+
 footer{
-    height: 100%;
-    width: 100vw;
+    @include sizes;
     background: $gradiente-violeta;
     div{
-        #btn-footer{
+        #btn-footer{ border: 1px solid map-get($colores, "azul oscuro" );
+            border-radius: 5px;
             animation:pulse infinite;
             animation-duration: 2s;
         }
