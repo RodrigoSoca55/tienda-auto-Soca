@@ -2,31 +2,12 @@
 main{
     @include sizes;
 
-    #carouselExampleIndicators{
-
-      .carousel-indicators{
-                  button{}
-
-      }
-
-      .carousel-inner{
-        .carousel-item{
-            
-            img{ object-fit:cover}
-
-        }
-      }
-     .carousel-control-prev{
-        .carousel-control-prev-icon{}
-     
+   
+     img{ 
+        object-fit:contain;
     }
+      
 
-     .carousel-control-next{
-        .carousel-control-next-icon{}
-
-     }
-    }
- 
 
     #flechabajar{
         animation:shakeY infinite;
@@ -52,17 +33,7 @@ main{
             }
         }
     }
-    div{ 
-        div{ 
-            div{
-                #card{ img{
-                     object-fit: cover;
-                }
-
-                     }
-                }
-            }
-        }
+    
 }
 
 .texto-form{
