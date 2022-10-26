@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="../css/style.css">
     <title>Motores</title>
 </head>
@@ -28,8 +29,8 @@
                     aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <a class=" d-flex navbar-brand d-xxl-none d-xl-none d-lg-none" href="../index.html" id="logo">
-                    <img src="../assets/favicon_io/android-chrome-512x512square.png" alt="logo" width="50" height="50">
+                <a class=" d-flex navbar-brand  " style="margin-left: 50px ;" href="../index.html" id="logo">
+                    <img src="../assets/favicon_io/android-chrome-512x512square.png" alt="logo" style=" width: 43px; height: 43px;">
                 </a>
                 <a href="" class="d-xxl-none d-xl-none d-lg-none" id="carrito">
                     <i class="bi bi-cart" style="color:white; font-size:xx-large;" alt="carrito"></i>
@@ -47,7 +48,7 @@
                             <h4>Performance</h4>
                         </a>
                         <a class="nav-link" href="../pages/estetica.html">
-                            <h4>Estetica</h4>
+                            <h4>Estética</h4>
                         </a>
                         <a class="nav-link" href="../pages/accesorios.html">
                             <h4>Accesorios</h4>
@@ -58,108 +59,336 @@
 
                     </div>
                 </div>
-                <a href="" class="d-lg-block d-none" style="margin-right: 10px;" id="carrito">
-                    <i class="bi bi-cart" style=" font-size:xx-large; color: rgb(99, 99, 99);" alt="carrito"></i>
+                <a href="" class="d-lg-block d-none"  id="carrito">
+                    <i class="bi bi-cart" style=" font-size:xx-large;" alt="carrito"></i>
                 </a>
             </div>
         </nav>
     </header>
 
 
-    <main  style=" height: 100%; background-image: url(../assets/motores/bg2.jpg);">
-        <div>
-            <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
-                <div class="carousel-inner">
-                    <div class="carousel-item active">
-                        <img src="../assets/motores/1 (2).jpg" class="d-block w-100" alt="...">
-                    </div>
-                    <div class="carousel-item">
-                        <img src="../assets/motores/3.jpg" class="d-block w-100" alt="...">
-                    </div>
-                    <div class="carousel-item">
-                        <img src="../assets/motores/2.jpg" class="d-block w-100" alt="...">
-                    </div>
-                </div>
+    <main  >
+        <div id="carouselmotores" class="carousel slide carousel-fade" data-bs-ride="false">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselmotores" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselmotores" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselmotores" data-bs-slide-to="2" aria-label="Slide 3"></button>
+              <button type="button" data-bs-target="#carouselmotores" data-bs-slide-to="3" aria-label="Slide 4"></button>
             </div>
-            <div>
-            </div>
-
-            <div class="d-lg-flex d-xl-flex d-xxl-flex d-none justify-content-center align-content-center" style="margin-top: 5% ; animation:pulse infinite; animation-duration: 2s;">
-                <button type="button" class="btn btn-dark"><a href="#motores" style="text-decoration: none; "><h1 class="display-3" style="color:rgb(255, 255, 255) ; font-weight:600; ">MOTORES</h1></a></button>
-            </div>
-
-            <div id="motores" class="container-fluid d-grid justify-content-center align-items-center">
-                <div class="row " style="margin-top: 5%; justify-content:center; margin-bottom: 8%; width: 95vw; margin-right: 4%;">
-                    <div class="card bg-black" style="width: 25rem; height: 30rem; margin-left: 2%; margin-top:2%;">
-                        <img src="../assets/motores/ls3.png" class="card-img-top" alt="ls3">
-                        <div class="card-body ">
-                            <h5 class="card-title" style="color: white; text-align: center;"> GENERAL MOTORS LS3</h5>
-                            <p class="card-text" style="color:white ;">
-                                El LS3 de 6.2L V8 se presentó como el motor del Corvette para el  modelo 2008, produce 430 bhp a 5900 rpm y 424 lb⋅ft de torque a 4600 rpm.
-                            
-                            
-                            </p>
-
-                              
-                               
-                        </div>
-                    </div>
-                    <div class="card bg-black" style="width: 25rem; height: 30rem; margin-left: 2%; margin-top:2%;">
-                        <img src="../assets/motores/Hellcat-Engine.png" class="card-img-top" alt="Hellcat-Engine">
-                        <div class="card-body">
-                            <h5 class="card-title" style="color: white; text-align: center;"> DODGE HELLCAT 6.2L V8</h5>
-                            <p class="card-text" style="color:white ;">
-                                En 2015, Chrysler presentó una variante sobrecargada del motor Hemi, llamada Hellcat. Este motor tiene una potencia  de 707 bhp  a 6000 rpm y 650 lb⋅ft de torque a 4.000 rpm.
-                            
-                            
-                            </p>
-
-                              
-                               
-                        </div>
-                    </div>
-                    <div class="card bg-black" style="width: 25rem; height: 30rem; margin-left: 2%; margin-top:2%;">
-                        <img src="../assets/motores/Motor-RB26-Nissan-Skyline-GT-R-R32.jpg" class="card-img-top" alt="Motor-RB26-Nissan-Skyline-GT-R-R32">
-                        <div class="card-body">
-                            <h5 class="card-title" style="color: white; text-align: center;"> NISSAN RB26DETT</h5>
-                            <p class="card-text" style="color:white ;">
-                              EL RB26DETT fue el motor destinado para el Nissan Skyline Gtr R32 entre los años 1989 a 2002, con 6 cilindros en linea y una cilindrada de 2.6L tiene una potencia de 276 bhp a 6800rpm y 250lb.ft de torque a 4400rpm
-                            
-                            
-                            </p>
-
-                              
-                               
-                        </div>
-                    </div>
-                    <div class="card bg-black" style="width: 25rem; height: 30rem; margin-left: 2%; margin-top:2%;">
-                        <img src="../assets/motores/9d0571_fe9554c43a9e428586f7715e9be09cfe_mv2.jpg" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title" style="color: white; text-align: center;">TOYOTA 2JZ</h5>
-                            <p class="card-text" style="color:white ;">
-                             Este motor estuvo presente en la iconica generacion Mk4 del Toyota Supra, con 6 cilindros en linea y una cilindrada de 3.0L genera una potencia de 276 bhp a 5600rpm y 320lb.ft de torque a 4000rpm.
-                            
-                            
-                            </p>
-
-                              
-                               
-                        </div>
-                    </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <video muted autoplay loop src="../assets/video/dodgehellcat.webm" class="d-block w-100" alt=" VIDEO DODGE HELLCAT "></video>
+                <div class="carousel-caption  d-block">
+                  <h5 id="titulomotores" style="font-size: 4rem;">HEMI V8 </h5>
                   
-
-
-
+                 <div style="display:inline-block;"> <p style="font-size:2rem ;">DESCUBRE MÁS <a href="#hemi"><i class="bi bi-arrow-right-circle" style="color: red;"></i></a></p></div>
 
                 </div>
+              </div>
+              <div class="carousel-item">
+                <video  muted autoplay loop src="../assets/video/r34__3__AdobeExpress.webm" class="d-block w-100" alt="VIDEO GTR R34"></video>
+                <div class="carousel-caption  d-block">
+                  <h5 id="titulomotores" style="font-size: 4rem;">RB26DETT L6</h5>
+                  <div style="display:inline-block;"> <p style="font-size:2rem ;">DESCUBRE MÁS <a href="#rb26dett"><i class="bi bi-arrow-right-circle" style="color: red;"></i></a></p></div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <video   muted autoplay loop src="../assets/video/ls.webm" class="d-block w-100" alt="VIDEO CORVETTE C6"></video>
+                <div class="carousel-caption  d-block">
+                  <h5 id="titulomotores" style="font-size: 4rem;">LS3 V8</h5>
+                  <div style="display:inline-block;"> <p style="font-size:2rem ;">DESCUBRE MÁS <a href="#ls3"><i class="bi bi-arrow-right-circle" style="color: red;"></i></a></p></div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <video   muted autoplay loop src="../assets/video/2JZ.webm" class="d-block w-100" alt="VIDEO SUPRA MK4"></video>
+                <div class="carousel-caption  d-block">
+                  <h5 id="titulomotores" style="font-size: 4rem;">2JZ L6</h5>
+                  <div style="display:inline-block;"> <p style="font-size:2rem ;">DESCUBRE MÁS <a href="#2jz"><i class="bi bi-arrow-right-circle" style="color: red;"></i></a></p></div>
+                </div>
+              </div>
             </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselmotores" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselmotores" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+          <!-- motor Hemi -->
+          <div class="d-grid" id="contendormotores" style="min-height: 100vh; width: 100vw;background: rgb(0,0,0);
+          background: rgb(0,0,0);
+          background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(83,0,0,1) 37%, rgba(255,0,0,1) 50%, rgba(125,2,2,1) 63%, rgba(0,0,0,1) 100%);">
+          <div class="row" id="hemi">
+          <div class="col-xl-3  row-lg" id="c1">     
+              <section style="display:inline-block; margin-top: 55px; width: 36vw; padding: 0;">
+              <div class="hero-container" >
+              <h2  class="hero glitch layers" data-text="HEMI V8"><span>HEMI V8</span></h2>
+              </div>
+              </section>
+          <div class="d-flex justify-content-center contenedorinfomotor" style="margin-top: 25%;" >
+         <ul class="listamotor" style="list-style: none; font-family: 'Open Sans', sans-serif; ">
+            <li id="li1motor">
+                <div> <h2 style="font-size: 4em; color: white;">DODGE</h2></div>
+                <div> <p style="font-size: 1.5em; color: rgb(201, 185, 185);">MARCA</p> </div>
+               </li>
+          <li id="li2motor" style="margin-top: 30px;">
+          <div> <h2 style="font-size: 4em; color: white;">707HP</h2></div>
+          <div> <p style="font-size: 1.5em; color: rgb(201, 185, 185);">POTENCIA</p> </div>
+         </li>
+         <li id="li3motor" style="margin-top: 30px;">
+          <div> <h2 style="font-size: 4em; color: white;">6.2L</h2></div>
+          <div> <p style="font-size: 1.5em; color: rgb(201, 185, 185);">CILINDRADA</p> </div>
+         </li>
+      </ul>
+      </div>   
+      </div>
+          <div id="c2" class="col-xl-6 row-lg d-flex " style="justify-content:center ; align-items: center;">
+              <img  src="../assets/motores/hellcat.png" alt="Motor Hemi v8" style="height: 70%; width:70%;">
+          </div>
+          <div id="c3" class="col-xl-3 row-lg ">
+              
+              <div >
+                  <div class="containertitulomotor" style="margin-top: 50px; width:36vw; margin-left: -20px;"> 
+                  <h1 style="color:white ;font-family: 'Open Sans', sans-serif; font-size: 4rem; letter-spacing: 10px;">HELLCAT</h1></div>
+                  <ul class="listamotor" style="list-style: none; font-family: 'Open Sans', sans-serif; margin-top: 25%;">
+                   <li id="li1motor">
+                   <div> <h2 style="font-size: 4em; color: white;">650LB/FT</h2></div>
+                   <div> <p style="font-size: 1.5em; color: rgb(201, 185, 185);">TORQUE</p> </div>
+                  </li>
+                  <li id="li2motor" style="margin-top: 30px;">
+                   <div> <h2 style="font-size: 4em; color: white;">2015</h2></div>
+                   <div> <p style="font-size: 1.5em; color: rgb(201, 185, 185);">LANZAMIENTO</p> </div>
+                  </li>
+                  <li id="li3motor">
+                    <div>
+                        <h2 style="font-size: 4em; color: white;">ENCENDER</h2></div>
+                        <div  class="player">
+                        <audio id="audio" controls type="audio/mp3" src="../assets/motores/dodge-charger-hellcat-exhaust-and-interior-acceleration-sound-effect.mp3" ></audio>
+                        </div>
+                    </div>
+                    
+                  </li>
+             
+               </ul>
+               </div>   
+          </div> 
+          </div>   
+  
+          </div>
+          <!-- motor rb26dett -->
+          <div class="d-flex" id="contendormotores" style="min-height: 100vh; width: 100vw; background: rgb(0,0,0);
+          background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(3,0,86,1) 37%, rgba(9,0,255,1) 50%, rgba(3,0,86,1) 63%, rgba(0,0,0,1) 100%);">
+              <div class="row" id="rb26dett">
+                <div class="col-xl-3  row-lg " id="c1">     
+                    <section style="display:inline-block; margin-top: 55px; width: 36vw; padding: 0;">
+                    <div class="hero-container" >
+                    <h2  class="hero glitch layers" data-text="RB26DETT L6"><span>RB26DETT L6</span></h2>
+                    </div>
+                    </section>
+                <div class="d-flex justify-content-center contenedorinfomotor" style="margin-top: 25%;" >
+               <ul class="listamotor" style="list-style: none; font-family: 'Open Sans', sans-serif; ">
+                  <li id="li1motor">
+                      <div> <h2 style="font-size: 4em; color: white;">NISSAN</h2></div>
+                      <div> <p style="font-size: 1.5em; color: rgb(201, 185, 185);">MARCA</p> </div>
+                     </li>
+                <li id="li2motor" style="margin-top: 30px;">
+                <div> <h2 style="font-size: 4em; color: white;">276HP</h2></div>
+                <div> <p style="font-size: 1.5em; color: rgb(201, 185, 185);">POTENCIA</p> </div>
+               </li>
+               <li id="li3motor" style="margin-top: 30px;">
+                <div> <h2 style="font-size: 4em; color: white;">2.6L</h2></div>
+                <div> <p style="font-size: 1.5em; color: rgb(201, 185, 185);">CILINDRADA</p> </div>
+               </li>
+            </ul>
+            </div>   
+            </div>
+                <div id="c2" class="col-xl-6 row-lg d-flex" style="justify-content:center ; align-items: center;">
+                    <img  src="../assets/motores/rb26dett.png" alt="Motor RB26DETT l6" style="height: 70%; width:70%;">
+                </div>
+                <div id="c3" class="col-xl-3 row-lg">
+                    
+                    <div >
+                        <div class="containertitulomotor"  style="margin-top: 50px; width:36vw; margin-left: -20px;"> 
+                        <h1 style="color:white ;font-family: 'Open Sans', sans-serif; font-size: 4em; letter-spacing: 10px;">GTR</h1></div>
+                        <ul  class="listamotor"  style="list-style: none; font-family: 'Open Sans', sans-serif; margin-top: 25%;">
+                         <li id="li1motor" >
+                         <div> <h2 style="font-size: 4em; color: white;">250LB/FT</h2></div>
+                         <div> <p style="font-size: 1.5em; color: rgb(201, 185, 185);">TORQUE</p> </div>
+                        </li>
+                        <li id="li2motor" style="margin-top: 30px;">
+                         <div> <h2 style="font-size: 4em; color: white;">1989</h2></div>
+                         <div> <p style="font-size: 1.5em; color: rgb(201, 185, 185);">LANZAMIENTO</p> </div>
+                        </li>
+                        <li id="li3motor">
+                          <div>
+                              <h2 style="font-size: 4em; color: white;">ESCUCHAR</h2></div>
+                              <div  class="player">
+                              <audio id="audio" controls type="audio/mp3" src="../assets/motores/nissan-skyline-gtr-sound-effects.mp3" ></audio>
+                              </div>
+                          </div>
+                          
+                        </li>
+                   
+                     </ul>
+                     </div>   
+                </div> 
+                </div>   
+           
+        </div>
+        <!-- motor ls3 -->
+        <div class="d-grid" id="contendormotores" style="min-height: 100vh; width: 100vw;background: rgb(0,0,0);
+        background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(153,0,78,1) 37%, rgba(248,6,88,1) 50%, rgba(153,0,78,1) 63%, rgba(0,0,0,1) 100%);">
+        <div class="row" id="ls3">
+            <div class="col-xl-3 row-lg " id="c1">     
+                <section style="display:inline-block;  margin-top: 55px; width: 27vw; padding: 0;">
+                <div class="hero-container" >
+                <h2  class="hero glitch layers" data-text="LS3 V8"><span>LS3 V8</span></h2>
+                </div>
+                </section>
+            <div class="d-flex justify-content-center contenedorinfomotor" style="margin-top: 25%;" >
+           <ul  class="listamotor"  style="list-style: none; font-family: 'Open Sans', sans-serif; ">
+               
+              <li id="li1motor">
+                  <div> <h2 style="font-size: 4em; color: white;">CHEVROLET</h2></div>
+                  <div> <p style="font-size: 1.5em; color: rgb(201, 185, 185);">MARCA</p> </div>
+                 </li>
+            <li id="li2motor" style="margin-top: 30px;">
+            <div> <h2 style="font-size: 4em; color: white;">430HP</h2></div>
+            <div> <p style="font-size: 1.5em; color: rgb(201, 185, 185);">POTENCIA</p> </div>
+           </li>
+           <li  id="li3motor" style="margin-top: 30px;">
+            <div> <h2 style="font-size: 4em; color: white;">6.2L</h2></div>
+            <div> <p style="font-size: 1.5em; color: rgb(201, 185, 185);">CILINDRADA</p> </div>
+           </li>
+        </ul>
+        </div>   
+        </div>
+            <div id="c2" class="col-xl-6 row-lg d-flex " style="justify-content:center ; align-items: center;">
+                <img  src="../assets/motores/ls3.png" alt="Motor LS3 v8" style="height: 70%; width:70%;">
+            </div>
+            <div id="c3" class="col-xl-3 row-lg ">
+                
+                <div >
+                    <div  class="containertitulomotor" style="margin-top: 50px; width:36vw; margin-left: -90px;"> 
+                    <h1 style="color:white ;font-family: 'Open Sans', sans-serif; font-size: 4em; letter-spacing: 10px;">CORVETTE</h1></div>
+                    <ul  class="listamotor"  style="list-style: none; font-family: 'Open Sans', sans-serif; margin-top: 25%;">
+                     <li id="li1motor">
+                     <div> <h2 style="font-size: 4em; color: white;">424LB/FT</h2></div>
+                     <div> <p style="font-size: 1.5em; color: rgb(201, 185, 185);">TORQUE</p> </div>
+                    </li>
+                    <li id="li2motor" style="margin-top: 30px;">
+                     <div> <h2 style="font-size: 4em; color: white;">2008</h2></div>
+                     <div> <p style="font-size: 1.5em; color: rgb(201, 185, 185);">LANZAMIENTO</p> </div>
+                    </li>
+                    <li id="li3motor">
+                      <div>
+                          <h2 style="font-size: 4em; color: white;">ENCENDER</h2></div>
+                          <div  class="player">
+                          <audio id="audio" controls type="audio/mp3" src="../assets/motores/c6-sound-exhaust.mp3" ></audio>
+                          </div>
+                      </div>
+                      
+                    </li>
+               
+                 </ul>
+                 </div>   
+            </div> 
+            </div> 
+
+        </div>
+        <!-- motor 2jz -->
+        <div class="d-flex" id="contendormotores" style="min-height: 100vh; width: 100vw; background: rgb(0,0,0);
+background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(64,0,83,1) 37%, rgba(111,0,255,1) 50%, rgba(74,2,125,1) 63%, rgba(0,0,0,1) 100%);">
+ <div class="row" id="2jz">
+    <div class="col-xl-3 row-lg " id="c1">     
+        <section style="display:inline-block; margin-top: 55px; width: 27vw; padding: 0;">
+        <div class="hero-container" >
+        <h2  class="hero glitch layers" data-text="2JZ L6"><span>2JZ L6</span></h2>
+        </div>
+        </section>
+    <div class="d-flex justify-content-center contenedorinfomotor" style="margin-top: 25%;" >
+   <ul  class="listamotor"  style="list-style: none; font-family: 'Open Sans', sans-serif; ">
+      <li id="li1motor">
+          <div> <h2 style="font-size: 4em; color: white;">TOYOTA</h2></div>
+          <div> <p style="font-size: 1.5em; color: rgb(201, 185, 185);">MARCA</p> </div>
+         </li>
+    <li id="li2motor" style="margin-top: 30px;">
+    <div> <h2 style="font-size: 4em; color: white;">276HP</h2></div>
+    <div> <p style="font-size: 1.5em; color: rgb(201, 185, 185);">POTENCIA</p> </div>
+   </li>
+   <li  id="li3motor" style="margin-top: 30px;">
+    <div> <h2 style="font-size: 4em; color: white;">3.0L</h2></div>
+    <div> <p style="font-size: 1.5em; color: rgb(201, 185, 185);">CILINDRADA</p> </div>
+   </li>
+</ul>
+</div>   
+</div>
+    <div id="c2" class="col-xl-6 row-lg d-flex " style="justify-content:center ; align-items: center;">
+        <img  src="../assets/motores/SUPRA.png" alt="Motor 2jz l6" style="height: 80%; width:80%;">
+    </div>
+    <div id="c3" class="col-xl-3 row-lg">
+        
+        <div >
+            <div class="containertitulomotor" style="margin-top: 50px; width:36vw; margin-left: -20px;"> 
+            <h1 style="color:white ;font-family: 'Open Sans', sans-serif; font-size: 4em; letter-spacing: 10px;">SUPRA</h1></div>
+            <ul  class="listamotor"  style="list-style: none; font-family: 'Open Sans', sans-serif; margin-top: 25%;">
+             <li id="li1motor">
+             <div> <h2 style="font-size: 4em; color: white;">320LB/FT</h2></div>
+             <div> <p style="font-size: 1.5em; color: rgb(201, 185, 185);">TORQUE</p> </div>
+            </li>
+            <li id="li2motor" style="margin-top: 30px;">
+             <div> <h2 style="font-size: 4em; color: white;">1991</h2></div>
+             <div> <p style="font-size: 1.5em; color: rgb(201, 185, 185);">LANZAMIENTO</p> </div>
+            </li>
+            <li id="li3motor">
+              <div>
+                  <h2 style="font-size: 4em; color: white;">ENCENDER</h2></div>
+                  <div  class="player">
+                  <audio id="audio" controls type="audio/mp3" src="../assets/motores/2jz.mp3" ></audio>
+                  </div>
+              </div>
+              
+            </li>
+       
+         </ul>
+         </div>   
+    </div> 
+    </div>   
+             
+
+       
     </main>
 
     <footer
-    style="background: linear-gradient(90deg, rgba(44, 41, 91, 1) 0%, rgba(193, 32, 87, 1) 35%, rgba(0, 112, 255, 1) 100%); margin-top: 0%; margin-bottom: 0%;">
-    <div class="container-fluid align-items-center d-flex" style="height: 10vh;">
-      <a href="../pages/contacto.html" id="btn-footer" style="margin-left: 10%;"><button type="button"
-          class="btn btn-primary btn-lg">Contactanos</button></a>
+    style=" margin-top: 0%; margin-bottom: 0%;">
+    <div class="container-fluid align-items-center d-flex justify-content-center contenedorftr" style="height: 10vh;">
+      <div class="d-grid ">
+        <div class="row">
+          <div class="col-4 col-sm-2 d-flex justify-content-center ">
+            <a href="https://www.linkedin.com/in/rodrigo-soca-b75867171/"><i class="bi bi-linkedin ln" style="font-size: 2rem; color: #ffffff;"></i></a>
+        </div>
+          <div class="col-4 col-sm-2 d-flex justify-content-center ">
+            <a href="https://www.instagram.com"> <i class="bi bi-instagram ig" style="font-size: 2rem; color: #ffffff;"></i></a>
+        </div>
+          <div class="col-4 col-sm-2 d-flex justify-content-center ">
+            <a href="https://www.youtube.com"><i class="bi bi-youtube yt" style="font-size: 2rem; color: #ffffff;"></i></a>
+        </div>
+          <div class="col-4 col-sm-2 d-flex justify-content-center ">
+            <a href="https://open.spotify.com/playlist/3koUYSF1oTROnrR9rBdkkl?si=81302f71c23b428e"><i id="stfy" class="bi bi-spotify" style="font-size: 2rem; color: #ffffff;"></i></a>
+        </div>
+          <div class="col-4 col-sm-2 d-flex justify-content-center ">
+            <a href="../pages/contacto.html"><i class="bi bi-info-square-fill ln" style="font-size: 2rem; color: #ffffff;"></i></a>
+        </div>
+          <div class="col-4 col-sm-2 d-flex justify-content-center ">
+            <a href="../index.html"><i class="rs-ico" style="font-size: 2rem; color:#ffff;"><img src="../assets/favicon_io/logo.ico" style="height: 100%; width: 70%;" alt="logo"></i></a>
+        </div>
+           
+        </div>
+        <div  class="row"  > <div id="copy" style="text-align: center; color: #ffffff;">© Copyright 2022 / RS MOTORS</div></div>              
+      </div>
+         
     </div>
 
   </footer>
@@ -172,6 +401,8 @@
     </script>
 
     <!-- bootstrap -->
+    
+
 </body>
 
 </html>

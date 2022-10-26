@@ -1,12 +1,13 @@
 
 header{
     @include sizes;
-
-
+    
+    font-family:  'Nunito', sans-serif;
 
 
    #carrito{
-    margin-right: 10px;
+    margin-right: 50px;
+    color: white;
    }
   
 }

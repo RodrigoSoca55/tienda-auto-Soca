@@ -4,18 +4,38 @@
 
     /* // Extra large devices (large desktops, 1200px and up) */
     @media (min-width: 1200px) { 
-        #R-1 , #R-2 ,#R-3{
-        animation: backInLeft;
+    
+    #R-1, #R-3{
+        animation:  backInLeft; 
         animation-duration: 2s; 
-       }
+    }
+    #R-2{
+        animation: backInRight;
+        animation-duration: 2s;
+         
+     }
      
    #R-1 #card:hover, #R-2 #card:hover , #R-3 #card:hover{
   
        @include hover-cards;
     
    }
- 
+   .listamotor{
+    list-style: none;
+    margin-top: 2%;
+   }
 
+
+//    animacion motores
+     #c3{
+        animation: backInRight;
+        animation-duration: 2s; 
+     }
+     #c1{
+        animation: backInLeft;
+        animation-duration: 2s; 
+     }
+    
     }
 
 
@@ -30,9 +50,17 @@
            @include hover-cards;
         
        }
+      
 
 
-
+   }
+   @media (max-width: 992px) { 
+    #carrito{
+        margin-right: 10px!important;
+    }
+    .navbar-brand{
+        margin-left: 0!important;
+    }
    }
 
 
@@ -55,13 +83,44 @@
 
    /* // Small devices (landscape phones, 576px and up) */
    @media (min-width: 576px) { }
+  @media (max-width:576px){
+    footer{
+        .contenedorftr{
+        height: 15vh!important;
+        }
+        .rs-ico{
+            img{
+                height: 2.5rem!important;
+                width: 2.5rem!important;
+            }
+        }
+    #copy{
+       font-size: 15px;
+    }
+    }
+  }
 
-
-
+  
 
 
 
    /* Break points */
+   @media (max-height:900px) {
+    footer{
+        height: 100%!important;
+        .contenedorftr{
+            height: 100%!important;
+        }
+    
+    }
+
+    #containercontacto{
+        .row{
+        height: 100%!important;
+        
+    }
+    }
+   }
    @media(max-height:505px) {
        footer{
        height: 15vh;
@@ -93,3 +152,152 @@
            
        }
    }
+   @media (max-width:1511px){
+    #c3{
+        margin-left: -64px;
+    }
+   }
+
+  /* media queries motores  */
+   @media (max-width:1200px){
+    #li1motor, #li2motor, #li3motor {
+        float: left;
+      text-align: center;
+      margin-top: 0px!important;
+      margin-right: 50px;
+       }
+     
+    .listamotor{
+        width: 100vw;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 0!important;
+      
+      
+    }
+    .contenedorinfomotor{
+        margin-top: 5%!important;
+    }
+    #c1{
+        text-align: center;
+    }
+    .containertitulomotor{
+        margin-top: 0!important;
+        margin-left: 0!important;
+        text-align: center;
+        width: 100vw!important;
+    }
+    #c3{
+        margin-left: 0px;
+    }
+    #contacto{
+        background-color: black;
+    }
+   }
+
+   @media (max-width:894px) {
+    .listamotor{
+
+        h2{ font-size: 2em!important;
+
+    }
+    
+   
+   }
+   #audio{
+    width: 170px!important;
+   }
+   .player{
+       width: 180px!important;
+   }
+}
+@media (max-width:588px) {
+   
+  #c1 , #c2 , #c3{
+    width: 100vw;
+   h1{ font-size: 2em!important;
+     }
+   h2{
+    font-size: 3em;
+   }
+   #audio{
+    width: 100%!important;
+   }
+   .player{
+       width: 100%!important;
+   }
+}
+.listamotor{
+    display: block;
+    li{
+        float: none!important;
+    }
+} 
+#c2{
+    img{height: 100%!important;
+        width: 80%!important;
+
+}
+}
+#c1{
+    section{
+        width: 100vw!important;
+    }
+}
+
+   }
+
+
+  /* media queries contacto  */
+@media(max-width:1133px){
+    #containercontacto{
+        height: auto!important;
+        margin-bottom: .2%;
+       
+    }
+    #contacto{
+        background-color: black!important;
+    
+    }
+}
+@media (max-width:991px){
+
+#containercontacto{
+    justify-content: center;
+    width: 100vw!important;
+    height: 100%  !important;
+    .fila1{
+        height: 100%!important;
+    
+            box-shadow: none!important;
+        
+    }
+    .fila-2{
+        border-right:.2em solid #a117f2 ;
+        border-bottom: none!important;
+    }
+    .row{
+        width: 100vw!important;
+        
+    }
+}
+
+}
+@media (max-width:642px){
+    #containercontacto{
+        h2,span{
+            font-size: 2rem!important;
+        }
+    }
+}
+
+@media (max-width:440px){
+    #containercontacto{
+        h2,span{
+            font-size: 1.5rem!important;
+            letter-spacing: 0;
+        }
+    }
+}

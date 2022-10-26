@@ -7,6 +7,10 @@
 }
 @mixin hover-cards {
     transform: scale(1.1);
-    box-shadow: rgba(185, 184, 184, 0.432) 0px 1px 1px 0px inset, rgba(86, 86, 177, 0.466) 0px 80px 100px -6px, rgba(225, 0, 255, 0.596) 0px 0px 70px 10px; 
+    box-shadow: rgba(185, 184, 184, 0.432) 0px 1px 1px 0px inset, rgba(86, 86, 177, 0.466) 0px 80px 100px -6px, rgba(225, 0, 255, 0.596) 0px 0px 70px 10px;
+    transition:500ms ; 
 }   
-
+@mixin aclarar {
+    filter: brightness(1.5);
+    transition: 500ms;
+}

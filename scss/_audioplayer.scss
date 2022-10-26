@@ -1,0 +1,17 @@
+/* REPRODUCTOR DE AUDIO */ 
+audio::-webkit-media-controls-panel {
+    background-color: white;
+  }
+
+  audio::-webkit-media-controls-play-button:hover {
+    background-color: rgba(255, 0, 0, 0.7);
+    border-radius: 50%;
+  }
+.player{
+    align-content: center;
+    display: block;
+    background-color: white;
+    width: 310px;
+    height: 60px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
+}
